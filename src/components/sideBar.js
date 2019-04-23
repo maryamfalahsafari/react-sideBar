@@ -14,19 +14,19 @@ const SideBar = (props) => {
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/">
                     <FontAwesomeIcon icon="home" />
                     <span>Home</span>
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/aboutUs">
                     <FontAwesomeIcon icon="key" />
                     <span>About Us</span>
                 </Link>
             </li>
             <li>
-                <Link>
+                <Link to="/contactUs">
                     <FontAwesomeIcon icon="envelope" />
                     <span>Contact Us</span>
                 </Link>

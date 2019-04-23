@@ -28,11 +28,11 @@ class App extends Component {
 
         <Header />
         <div className="row" style={{ height: '36rem' }}>
-          <div className='trans'>
+          {/* <div className='trans'>
             <FontAwesomeIcon icon="home"/>
             <span >maryam</span>
-          </div>
-          {/* <BrowserRouter>
+          </div> */}
+          <BrowserRouter>
             <SideBar menuClose={this.state.menuClose}
               toggleMenu={() => {
                 let temp = !this.state.menuClose;
@@ -49,7 +49,7 @@ class App extends Component {
                 return (<ContactUs menuClose={this.state.menuClose} />);
               }} />
             </Switch>
-          </BrowserRouter> */}
+          </BrowserRouter>
         </div>
 
       </div>
