@@ -1,6 +1,6 @@
 html{
   min-height: 100%;
-  background-color: blueviolet;
+  //background-color: blueviolet;
   height: 100%;
 }
 body {
@@ -60,36 +60,7 @@ ul.menu-closed li{
 ul.menu-closed li a span{
   display: none;
 }
-div.trans{
-  color: #2196f3;
-  width: 50px; 
-  overflow:hidden;
-  height: 60px;
-  background-color: #fff;
-  text-transform: capitalize;
-  text-align: center;
-  padding: 10px 10px;
-   margin: 20px 20px;
-   transition:width 2s;
-   font-family: fantasy;
-   font-size: 24px;
-   border:1px solid #2196f3;
-}
 
-div.trans span{
-margin-left:10px;
-display: none;
-}
 
-div.trans:hover{
-  width: 300px;
-  color: #fff;
-  background-color: #2196f3;
 
-}
-div.trans:hover span{
-  // @media (min-width: 20px) {  }
-  
-  display:inline;
-}
 

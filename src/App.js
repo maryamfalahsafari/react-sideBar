@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faEnvelope, faKey, faHome, faAddressBook, faArrowAltCircleLeft } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faKey, faHome, faAddressBook, faArrowAltCircleLeft, faAmbulance, faAnchor } from '@fortawesome/free-solid-svg-icons'
 
 import Header from './components/header';
 import SideBar from './components/sideBar';
@@ -11,9 +11,7 @@ import AboutUs from './components/aboutUs';
 import ContactUs from './components/contactUs';
 import SideBar2 from './components/sideBar2'
 
-library.add(faEnvelope, faKey, faHome, faAddressBook, faArrowAltCircleLeft)
-
-
+library.add(faEnvelope, faKey, faHome, faAddressBook, faArrowAltCircleLeft, faAmbulance, faAnchor);
 
 class App extends Component {
   constructor(props) {
@@ -28,10 +26,6 @@ class App extends Component {
 
         <Header />
         <div className="row" style={{ height: '36rem' }}>
-          {/* <div className='trans'>
-            <FontAwesomeIcon icon="home"/>
-            <span >maryam</span>
-          </div> */}
           <BrowserRouter>
             <SideBar menuClose={this.state.menuClose}
               toggleMenu={() => {
