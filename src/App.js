@@ -24,7 +24,7 @@ class App extends Component {
     return (
       <div className="container-fluid" style={{ height: '100%' }}>
 
-        <Header />
+        {/* <Header /> */}
         <div className="row" style={{ height: '36rem' }}>
           <BrowserRouter>
             <SideBar menuClose={this.state.menuClose}

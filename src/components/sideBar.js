@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const SideBar = (props) => {
-    return (<div className={(props.menuClose == true ? "col-md-1" : "col-sm-3 ")} >
+    return (<div style={{backgroundColor:'#fafafa',borderRight:'solid 1px #bdbdbd'}} className={(props.menuClose == true ? "col-md-1" : "col-sm-3 ")} >
 
         <ul className={"main-menu " + (props.menuClose == true ? 'menu-closed' : '')}>
             <li onClick={props.toggleMenu} >
